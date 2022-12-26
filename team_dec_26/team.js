@@ -1,3 +1,5 @@
+//! *******    BIGGEST    ********//
+
 const n1 = +prompt("Enter a number")
 const n2 = +prompt("Enter a number")
 const n3 = +prompt("Enter a number")
@@ -9,3 +11,5 @@ if (n2 >= biggest) {
     biggest = n3
 }
 console.log( `${biggest} is the biggest.`);
+
+console.log(`The biggest is ${Math.max(n1,n2,n3)}`);
