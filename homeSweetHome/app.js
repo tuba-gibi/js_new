@@ -27,30 +27,33 @@
 
 //**SWITCH-CASE */
 
-let n1 = +prompt("Please enter a number")
-let opr = prompt("Please choose the operation +/-/ * / /")
-let n2 = +prompt("Please enter a number")
-let result
-switch (opr) {
-  case `+`:
-    result = n1 + n2
-    break;
-  case `-`:
-    result = n1 - n2
+// let n1 = +prompt("Please enter a number");
+// let opr = prompt("Please choose the operation +/-/ * / /");
+// let n2 = +prompt("Please enter a number");
+// let result;
+// switch (opr) {
+//   case `+`:
+//     result = n1 + n2;
+//     break;
+//   case `-`:
+//     result = n1 - n2;
 
-    break;
-  case `*`:
-    result = n1 * n2
+//     break;
+//   case `*`:
+//     result = n1 * n2;
 
-    break;
-  case `/`:
-    result = n1 / n2
+//     break;
+//   case `/`:
+//     result = n1 / n2;
 
-    break;
+//     break;
 
-  default:
-    // alert("Wrong entrance..")
-    break;
-}
-// console.log(`Result is ${result}`)
-console.log(`Result is  ${result}`);
+//   default:
+//     // alert("Wrong entrance..")
+//     break;
+// }
+
+// console.log(`Result is  ${result}`);
+
+let speed = +prompt ( "What's your speed?")
+console.log(speed < 90 ? "hızlan!" : speed > 120 ? "Yavaşla!" : "Süper");
